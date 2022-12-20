@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Container, Row,Form,Button } from "react-bootstrap";
 
-const API_KEY = '';
+const API_KEY = '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';
 /*eslint-disable-next-line*/
 const OpenAIFetch = () => {
   const [generatedImage, setGeneratedImage] = useState(null);

@@ -5,19 +5,19 @@ import Button from 'react-bootstrap/Button';
 function Header() {
     return (
         <>
-          <Navbar bg="black" style={{borderRadius: '15px' }}>
-            <Container style={{color: 'white'}}>
+          <Navbar style={{borderRadius: '15px' }}>
+            <Container >
               <Nav style={{marginTop: '16px', fontSize: '20px'}}>
-                <Navbar.Brand href="/" ><p style={{color: 'white'}}>Logo</p></Navbar.Brand>
+                <Navbar.Brand href="/" ><p>Logo</p></Navbar.Brand>
               </Nav>
               <Nav style={{marginLeft: '80px', marginTop: '16px', fontSize: '20px'}}>
-                <Nav.Link href="/"><p style={{color:'white'}}>Home</p></Nav.Link>
-                <Nav.Link href="/gallery"><p style={{color:'white'}}>Gallery</p></Nav.Link>
-                <Nav.Link href="/about-us"><p style={{color:'white'}}>About Us</p></Nav.Link>
+                <Nav.Link href="/"><p>Home</p></Nav.Link>
+                <Nav.Link href="/gallery"><p>Gallery</p></Nav.Link>
+                <Nav.Link href="/about-us"><p>About Us</p></Nav.Link>
               </Nav>
-              <Nav >
-                <Navbar.Brand href="/login"><Button>Login</Button></Navbar.Brand>
-                <Navbar.Brand href="/register"><Button>Sign in</Button></Navbar.Brand>
+              <Nav className='remove'>
+                <Navbar.Brand href="/login" ><Button variant="outline-primary" >Sign In</Button></Navbar.Brand>
+                <Navbar.Brand href="/register"><Button variant="outline-primary">Sign Up</Button></Navbar.Brand>
               </Nav>
             </Container>
           </Navbar>

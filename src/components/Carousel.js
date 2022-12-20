@@ -7,22 +7,22 @@ import {
   CarouselIndicators,
   CarouselCaption,
 } from 'reactstrap';
-import Slider1 from '../assets/images/Slider1.png';
+import Slider1 from '../assets/images/a9.png';
+import Slider2 from '../assets/images/ac3.png';
+import Slider3 from '../assets/images/17.png';
 
 const items = [
   {
     id: 1,
-    src: Slider1
+    src: Slider3
   },
   {
     id: 2,
-    altText: 'Slide 2',
-    caption: 'Slide 2',
-    src: 'https://picsum.photos/id/123/1200/600'
+    src: Slider2
   },
   {
     id: 3,
-    src: 'https://picsum.photos/id/123/1200/600'
+    src: Slider1
   },
 ];
 
@@ -68,7 +68,7 @@ function CarouselEx(props) {
     });
 
     return (
-        <div style={{margin: '20px'}}>
+        <div style={{marginTop: '25px'}}>
             <style>
                 {`.custom-tag {
               max-width: 100%;

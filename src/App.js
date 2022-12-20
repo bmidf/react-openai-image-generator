@@ -6,11 +6,12 @@ import OpenAIFetch from './openai/OpenAIFetch';
 import './index.css';
 import LoginForm from './components/Login';
 import Home from './components/Home';
+import ground from './assets/images/1c.png';
 
 function App() {
   return (
-    <div style={{backgroundColor: 'rgb(247, 226, 135)'}}>
-    <Container fixed style={{backgroundColor: 'rgb(247, 226, 135)'}}>
+    <div style={{backgroundImage: `url("${ground}")` }}>
+    <Container fixed>
       <Router>
         <Header />
         <Switch>

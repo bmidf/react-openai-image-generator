@@ -11,6 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.inputOpenAi{
-
+ @media screen and (max-width: 601px) {
+  .remove{
+    display: none;
+  }
 }
