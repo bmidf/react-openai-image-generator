@@ -11,8 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.imageSize{
+  height: 500px;
+   width: 500px;
+}
+@font-face {
+  font-family: 'boldRa'; 
+  src: url(./assets/fonts/Raleway-Bold.ttf);
+} 
+@font-face {
+  font-family: 'coco'; 
+  src: url(./assets/fonts/cocogoose.compressed-trial-regular.ttf);
+} 
  @media screen and (max-width: 601px) {
   .remove{
     display: none;
+  }
+  .IMAGE{
+    margin-top: 150px;
+  }
+  .imageSize{
+    width: 350px;
+    height: 350px;
   }
 }
